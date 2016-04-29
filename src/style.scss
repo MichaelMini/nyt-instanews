@@ -1,0 +1,105 @@
+.wrapper {
+	padding: 20% 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+	height: 85vh;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+.flex-item {
+	width: 25%;
+	background-color: blue;
+	list-style-type: none;
+}
+
+
+
+.container {
+}
+
+.selection-form {
+}
+
+form {
+}
+
+p {
+	line-height: 40px;
+
+	font-size: 16px;
+}
+select {
+	width: 120px;
+}
+
+footer {
+	text-align: center;
+	height: 15vh;
+	/*margin: 200px auto 10px;*/
+}
+
+footer span {
+	text-transform: uppercase;
+}
+
+/*Stories Start*/
+
+.story-grid {
+	box-sizing: border-box;
+	display: block;
+}
+
+section ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+
+	
+	section {
+		flex-direction: row;
+		display: flex;
+	}
+	
+	
+	form {
+		align-self: center;
+	}
+	
+
+}
+
+// @media only screen and (min-width: 1000px) {
+
+// }
+
+// @media (min-width: 600px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

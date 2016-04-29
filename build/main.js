@@ -1,0 +1,1 @@
+0!==nytData.length&&(nytData=nytData.filter(function(t){return t.multimedia.length}).splice(0,12));
