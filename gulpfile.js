@@ -27,7 +27,7 @@ gulp.task('scss', function(){
 gulp.task('uglify', function(){
    return gulp.src('./src/*.js') // What files do we want gulp to consume?
         .pipe(uglify()) // Call the uglify function on these files
-        .pipe(gulp.dest('./build')) // Where do we put the result?
+        .pipe(gulp.dest('./build')); // Where do we put the result?
 });
 
 		
