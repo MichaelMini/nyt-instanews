@@ -1,0 +1,19 @@
+/* -- Footer Start -- */
+
+footer {
+	color: $footer-font-color;   /*-- footer font color - grey --*/
+	height: 15vh;
+	text-align: center;
+
+		@include desktop {
+			padding-left: 38px;
+			text-align: left;
+		}
+	
+		footer span {
+			text-transform: uppercase;
+		}
+}
+
+
+/* -- Footer End -- */
