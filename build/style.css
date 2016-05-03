@@ -33,11 +33,12 @@ a {
   height: 400px; }
 
 .abstract-text {
-  padding: 12px 0 18px 0;
+  padding: 12px 18px 18px;
   align-self: flex-end;
   text-align: left;
   line-height: 20px;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw; }
 
 body {
   font-family: 'open_sanslight', serif;
@@ -50,17 +51,24 @@ body {
   padding: 20px;
   height: 36vh; }
   .active .logo-section img {
-    width: 138px; }
+    width: 12%; }
 
 .wrapper {
   text-align: center; }
 
 .logo-section {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
   height: 85vh; }
+  @media (min-width: 600px) {
+    .logo-section {
+      flex-flow: row nowrap; } }
+  @media (min-width: 1000px) {
+    .logo-section {
+      justify-content: flex-start;
+      padding-left: 38px; } }
 
 .loading {
   display: none;
@@ -70,16 +78,23 @@ body {
 ul {
   display: flex;
   flex-flow: row wrap;
-  width: 100%; }
+  width: 100%;
+  justify-content: center; }
 
 li {
-  max-width: 25vw;
+  width: 100vw;
   list-style-type: none;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 400px;
   display: flex; }
+  @media (min-width: 600px) {
+    li {
+      width: 50vw; } }
+  @media (min-width: 1000px) {
+    li {
+      width: 25vw; } }
 
 li a {
   align-self: flex-end;
@@ -102,6 +117,10 @@ footer {
   color: #c2c2c2;
   /*-- footer font color - grey --*/
   /*margin: 200px auto 10px;*/ }
+  @media (min-width: 1000px) {
+    footer {
+      text-align: left;
+      padding-left: 38px; } }
 
 footer span {
   text-transform: uppercase; }

@@ -23,7 +23,7 @@ $('.loading').show();
 
 	  .done(function(data){   
         if (data.results.length === 0) {
-        	alert('Sorry, no story found...');
+        	$('.stories').append('<p>Sorry, no story found...</p>');
         } else {
 
 
