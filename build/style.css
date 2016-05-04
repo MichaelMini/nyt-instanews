@@ -82,6 +82,8 @@ table {
 /* -- Variables and @mixin End -- */
 /* -- Globle Style Start -- */
 a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   height: 420px; }
 
@@ -154,8 +156,14 @@ option {
   height: 60px; }
 
 ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%; }
 
@@ -172,6 +180,8 @@ li {
     li {
       width: 25vw; } }
   li a {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
     align-self: flex-end;
     color: #ffffff;
     /* -- body font color - white -- */
@@ -180,6 +190,8 @@ li {
     width: 100%; }
 
 .abstract-text {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
   align-self: flex-end;
   background-color: rgba(0, 0, 0, 0.6);
   height: 160px;

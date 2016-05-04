@@ -1,6 +1,8 @@
 /* -- Globle Style Start -- */
 
 a {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	height: 420px;
 }
