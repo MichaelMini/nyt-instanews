@@ -7,15 +7,17 @@ var sass = require('gulp-sass');
 gulp.task('default', ['uglify', 'scss', 'browser-sync']);
 
 gulp.task('browser-sync', function() {
-    browserSync.init({
-	    open: false,
-	    proxy: '192.168.33.10/project2'
+    browserSync.init(null, {
+      open: false,
+	    server: {
+        baseDir: './'
+      }
 	});
-    
+
 // Watch tasks
 gulp.watch('./src/*.js', ['uglify']);
 gulp.watch('./src/*.scss', ['scss']);
-    
+
 gulp.watch(['./build/**/*.*', 'index.html'])
     .on('change', browserSync.reload);
 });
@@ -30,12 +32,12 @@ gulp.task('uglify', function(){
         .pipe(gulp.dest('./build')); // Where do we put the result?
 });
 
-		
+
 	// var gulp = require('gulp');
 	// var uglify = require('gulp-uglify');
 	// var browserSync = require('browser-sync').create();
 	// var sass        = require('gulp-sass');
-	
+
 
 	// 	gulp.task('default', ['uglify', 'browser-sync']);
 
@@ -69,5 +71,4 @@ gulp.task('uglify', function(){
 	// 	        .pipe(sass().on('error', sass.logError))
 	// 	        .pipe(gulp.dest("./build"))
 	// 	});
-		// 
-		
+		//
