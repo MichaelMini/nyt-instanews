@@ -104,19 +104,25 @@ body {
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  height: 85vh;
+  height: 90vh;
   justify-content: center; }
   .logo-section img {
     width: 220px; }
     @media (min-width: 600px) {
       .logo-section img {
-        margin: 0 30px;
+        margin: 0 9px;
         width: 22%; } }
     @media (min-width: 1000px) {
       .logo-section img {
+        margin: 0 30px 0 0;
         width: 220px; } }
   .logo-section p {
-    font-size: 14px; }
+    font-size: 13px; }
+    @media (min-width: 600px) {
+      .logo-section p {
+        text-align: left;
+        width: 180px;
+        font-size: .7rem; } }
   @media (min-width: 600px) {
     .logo-section {
       flex-flow: row nowrap; } }
@@ -146,6 +152,15 @@ select {
 
 option {
   font-size: 20px; }
+
+form {
+  width: 260px;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 600px) {
+    form {
+      align-items: flex-start; } }
 
 /* -- Header End -- */
 /* -- Stories Start -- */
@@ -209,13 +224,16 @@ li {
 footer {
   color: #c2c2c2;
   /*-- footer font color - grey --*/
-  height: 15vh;
+  height: 10vh;
   text-align: center; }
+  footer p {
+    font-size: .7rem;
+    line-height: 10px; }
   @media (min-width: 1000px) {
     footer {
       padding-left: 38px;
       text-align: left; } }
-  footer footer span {
+  footer span {
     text-transform: uppercase; }
 
 /* -- Footer End -- */

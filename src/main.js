@@ -35,7 +35,7 @@ $(document).ready(function(){
 	
 				// Append each (value.abstract) story into HTML5 with a href url leading to the story page (value.url)
 				newYorkTimes.forEach(function(item, index){
-					stories.append('<li class= "content-' + index + '"> <a class="text" href="' + item.url + '"><p class="abstract-text"> ' + item.abstract + 
+					stories.append('<li class= "content-' + index + '"> <a class="text" href="' + item.url + '" target="_blank"><p class="abstract-text"> ' + item.abstract + 
 					'</p></a> </li>');
 	        	
 					// Nesting Image into Content div
