@@ -44,6 +44,7 @@ li {
 			text-decoration: none;
 			width: 100%;
 			&:hover .abstract-text {
+				background-color: rgba(0, 0, 0, .6);
 				height: 130px;
 				padding: 12px 18px 18px;
 			}
@@ -55,12 +56,13 @@ li {
 	-webkit-align-self: flex-end;
 	    -ms-flex-item-align: end;
 	        align-self: flex-end;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, 0);
 	height: 0;
 	line-height: 20px;
 	text-align: left;
-	transition: height 1s ease-out,
-				padding 2s;
+	transition: height .6s ease-out,
+				background-color 1s,
+				padding 1s;
 	padding: 0 18px;
 	width: 100vw;
 }
