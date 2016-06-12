@@ -15,19 +15,19 @@ gulp.task('browser-sync', function() {
 });
 
 // Watch tasks
-gulp.watch('./src/*.js', ['uglify']);
-gulp.watch('./src/*.scss', ['scss']);
+gulp.watch('./src/js/*.js', ['uglify']);
+gulp.watch('./src/style/*.scss', ['scss']);
 
 gulp.watch(['./build/**/*.*', 'index.html'])
     .on('change', browserSync.reload);
 
 gulp.task('scss', function(){
-   return gulp.src('./src/*.scss')
+   return gulp.src('./src/style/*.scss')
               .pipe(sass().on('error', sass.logError))
               .pipe(gulp.dest('./build'));
 });
 gulp.task('uglify', function(){
-   return gulp.src('./src/*.js') // What files do we want gulp to consume?
+   return gulp.src('./src/js/*.js') // What files do we want gulp to consume?
         .pipe(uglify()) // Call the uglify function on these files
         .pipe(gulp.dest('./build')); // Where do we put the result?
 });
