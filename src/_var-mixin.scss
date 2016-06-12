@@ -8,16 +8,16 @@ $footer-font-color: #c2c2c2;
 
 $tablet-width: 600px;
 @mixin tablet {
-  @media (min-width: $tablet-width) {
-    @content;
-  }
+	@media (min-width: $tablet-width) {
+		@content;
+	}
 }
 
 $desktop-width: 1000px;
 @mixin desktop {
-  @media (min-width: $desktop-width) {
-    @content;
-  }
+	@media (min-width: $desktop-width) {
+		@content;
+	}
 }
 
 /* -- Variables and @mixin End -- */

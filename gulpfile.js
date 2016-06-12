@@ -13,11 +13,11 @@ gulp.task('browser-sync', function() {
       }
   });
 });
-    
+
 // Watch tasks
 gulp.watch('./src/*.js', ['uglify']);
 gulp.watch('./src/*.scss', ['scss']);
-    
+
 gulp.watch(['./build/**/*.*', 'index.html'])
     .on('change', browserSync.reload);
 
@@ -31,6 +31,3 @@ gulp.task('uglify', function(){
         .pipe(uglify()) // Call the uglify function on these files
         .pipe(gulp.dest('./build')); // Where do we put the result?
 });
-
-	
-		
