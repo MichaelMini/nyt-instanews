@@ -2,7 +2,7 @@
 
 Second Project of RED Academy - Full-Time Web Developer Professional
 
-## Project Description
+## Project Description - http://michaelmini.github.io/nyt-instanews-jQuery-json-gulp/index.html
 
 To build a website that displays images and article links from the New York Times News. The articles are using the ajax method to dynamically get the NYT Top Stories from the Json API, based on a user's chosen selection of the news catagories.
 
