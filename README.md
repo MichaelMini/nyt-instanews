@@ -10,7 +10,7 @@ In order to achive the above, I used the Ajax Get Method to get and .splice() on
 
 The Flexbox and media query allow the website to be responsive to different layout and style depending on the screen size of the user's device. 
 
-## The Tools
+## The Tools:
 
 * @font-face
 * Ajax, Json APIs
