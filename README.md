@@ -1,6 +1,6 @@
 # New York Time - Instanews - ajax/json API
 
-Second Project of RED Academy - Full-Time Web Developer Professional
+Second Project of RED Academy - Full-Time Front-End Web Developer Professional
 
 ## Project Description - http://michaelmini.github.io/nyt-instanews-jQuery-json-gulp/index.html
 
