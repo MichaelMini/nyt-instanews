@@ -1,4 +1,4 @@
-# New York Time - Instanews
+# New York Time - Instanews - ajax/json API
 
 Second Project of RED Academy - Full-Time Web Developer Professional
 
@@ -12,18 +12,18 @@ The Flexbox and media query allow the website to be responsive to different layo
 
 ## The Tools:
 
-* @font-face
-* Ajax, Json APIs
-* CSS and JQuery animations
-* Eslint and jshint (sublime text 3)
-* Flexbox
-* Git
-* Gulp
-* HTML/CSS
-* Javascript, JQuery
-* Node.js
-* Responsive Web Design
-* SASS
+ 1. @font-face
+ 2. Ajax, Json APIs
+ 3. CSS and JQuery animations
+ 4. Eslint and jshint (sublime text 3)
+ 5. Flexbox
+ 6. Git
+ 7. Gulp
+ 8. HTML/CSS
+ 9. Javascript, JQuery
+10. Node.js
+11. Responsive Web Design
+12. SASS
 
 ## Summary 
 
