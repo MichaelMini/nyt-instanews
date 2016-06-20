@@ -12,15 +12,15 @@ The Flexbox and media query allow the website to be responsive to different layo
 
 ## The Tools:
 
- 1. @font-face
- 2. Ajax, Json APIs
- 3. CSS and JQuery animations
- 4. Eslint and jshint (sublime text 3)
- 5. Flexbox
- 6. Git
- 7. Gulp
- 8. HTML/CSS
- 9. Javascript, JQuery
+01. @font-face
+02. Ajax, Json APIs
+03. CSS and JQuery animations
+04. Eslint and jshint (sublime text 3)
+05. Flexbox
+06. Git
+07. Gulp
+08. HTML/CSS
+09. Javascript, JQuery
 10. Node.js
 11. Responsive Web Design
 12. SASS
